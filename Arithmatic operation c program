@@ -1,0 +1,39 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    char op;
+    printf("Enter the number :");
+    scanf("%d",&a);
+    printf("Enter the number :");
+    scanf("%d",&b);
+    printf("Enter the operation :");
+    scanf(" %c",&op);
+    
+    switch(op)
+    {
+        case '+':
+          c=a+b;
+          printf("Addition %d",c);
+          break;
+        case '-':
+          c=a-b;
+          printf("subtraction %d",c);
+          break;
+        case '*':
+          c=a*b;
+          printf("multiply %d",c);
+          break;
+        case '/':
+          c=a/b;
+          printf("division %d",c);
+          break;
+        case'%':
+          c=a%b;
+          printf("modulo %d",c);
+          break;
+          
+    }
+
+   
+}
