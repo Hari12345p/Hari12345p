@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+  int a;
+  printf("Enter the number 1 , 2 or 3 :");
+  scanf("%d",&a);
+  switch(a)
+  {
+      case 1:
+        printf("you selected PIZZA...........");
+        break;
+      case 2:
+        printf("you selected BURGER..........");
+        break;
+      case 3:
+        printf("you selected PASTA............");
+        break;
+
+  }
+  printf("not valid intex....");
+     
+  
+}
